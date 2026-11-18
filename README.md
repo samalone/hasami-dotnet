@@ -152,3 +152,7 @@ Gaps:    3, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 16, 16, 32, 32
 
 See [docs/backup-pruning-algorithm.md](docs/backup-pruning-algorithm.md) for the full
 specification.
+
+## License
+
+Licensed under the MIT License; see [LICENSE](LICENSE).
