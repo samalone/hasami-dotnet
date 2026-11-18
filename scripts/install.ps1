@@ -4,7 +4,7 @@
 
 .DESCRIPTION
     Runs the full test suite in Release; only if it passes does it publish both tools as
-    single-file executables into -Prefix (default: %LOCALAPPDATA%\Programs\Hasami).
+    single-file executables into -Prefix (default: ~\.local\bin, the per-user bin directory).
     The executables are framework-dependent, so they need the .NET 10 runtime installed.
 
 .PARAMETER Prefix
@@ -15,7 +15,7 @@
 #>
 [CmdletBinding()]
 param(
-    [string]$Prefix = (Join-Path $env:LOCALAPPDATA 'Programs\Hasami'),
+    [string]$Prefix = (Join-Path $HOME '.local\bin'),
     [switch]$AddToPath
 )
 

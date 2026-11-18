@@ -30,12 +30,12 @@ choose exactly the same items as the Swift originals.
 ## Install
 
 ```powershell
-.\scripts\install.ps1 -AddToPath
+.\scripts\install.ps1
 ```
 
 This runs the tests in Release and, only if they pass, publishes `sukashi.exe` and
-`sukashi-plan.exe` to `%LOCALAPPDATA%\Programs\Hasami` (change it with `-Prefix`).
-`-AddToPath` adds that directory to your user `PATH`.
+`sukashi-plan.exe` to `~\.local\bin` (change it with `-Prefix`). If that directory isn't
+on your `PATH` yet, add `-AddToPath` to add it to your user `PATH`.
 
 To run from source instead:
 
