@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hasami/Hasami.csproj" />
+    <Project Path="src/Sukashi/Sukashi.csproj" />
+    <Project Path="src/SukashiPlan/SukashiPlan.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Hasami.Tests/Hasami.Tests.csproj" />
+  </Folder>
+</Solution>
